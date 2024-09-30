@@ -10,10 +10,11 @@
 <remote name="github" fetch="https://github.com/" review="" />
 <remote name="var-github" fetch="https://github.com/varigit/" review="" />
 <remote name="prj105-var-github" fetch="https://github.com/WaterRower-UK/" review="" />
-
-<remote  name="Ezurio-release"
-       fetch="ssh://git@github.com/lairdCP/" />
-
+<remote  name="Ezurio-release" fetch="ssh://git@github.com/lairdCP/" />
+       
+<project path="external/wpa_supplicant_8" name="android_supplicant" groups="pdk" remote="Ezurio-release" revision="LRD-REL-A13-11.171.0.24" />
+<project path="vendor/ezurio/backport" name="backports" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
+<project path="vendor/ezurio/firmware" name="radio_firmware" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
 <project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="47007d0169c4c6c855a3fc5333c142489a43e89e" />
 
 <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-11.0.0_2.6.0" />
@@ -75,7 +76,5 @@
 <!-- For 3rd party public git. -->
 <project path="external/glm" name="g-truc/glm" remote="github" revision="bf71a834948186f4097caa076cd2663c69a10e1e" />
 
-<project path="external/wpa_supplicant_8" name="android_supplicant" groups="pdk" remote="Ezurio-release" revision="LRD-REL-A13-11.171.0.24" />
-<project path="vendor/ezurio/backport" name="backports" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
-<project path="vendor/ezurio/firmware" name="radio_firmware" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
+
 </manifest>
