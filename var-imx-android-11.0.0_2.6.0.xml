@@ -11,11 +11,11 @@
 <remote name="var-github" fetch="https://github.com/varigit/" review="" />
 <remote name="prj105-var-github" fetch="https://github.com/WaterRower-UK/" review="" />
 
-<project path="platform/external/wpa_supplicant_8" name="android_supplicant" remote="prj105-var-github" revision="0c9292725bb8ff48cb212db299bef5d85191667f" />
-<!--<project path="vendor/ezurio/backport" name="backports" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
-<project path="vendor/ezurio/firmware" name="radio_firmware" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
+<project path="platform/external/wpa_supplicant_8" name="PRJ105_WiFi_android_supplicant" remote="prj105-var-github" revision="0c9292725bb8ff48cb212db299bef5d85191667f" />
+<project path="vendor/ezurio/backport" name="PRJ105_WiFi_backport" remote="prj105-var-github" revision="a7f4b936540e530d33d328e3e3e58a7dd362259d" />
+<!--<project path="vendor/ezurio/firmware" name="radio_firmware" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />!-->
 
-<project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="47007d0169c4c6c855a3fc5333c142489a43e89e" />!-->
+<project path="external/wireless-regdb" name="wireless-regdb" remote="wireless-regdb" revision="47007d0169c4c6c855a3fc5333c142489a43e89e" />
 
 <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="refs/tags/android-11.0.0_2.6.0" />
 
