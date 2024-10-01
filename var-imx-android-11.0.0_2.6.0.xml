@@ -11,7 +11,7 @@
 <remote name="var-github" fetch="https://github.com/varigit/" review="" />
 <remote name="prj105-var-github" fetch="https://github.com/WaterRower-UK/" review="" />
 
-<project path="external/wpa_supplicant_8" name="android_supplicant" remote="prj105-var-github" revision="0c9292725bb8ff48cb212db299bef5d85191667f" />
+<project path="platform/external/wpa_supplicant_8" name="android_supplicant" remote="prj105-var-github" revision="0c9292725bb8ff48cb212db299bef5d85191667f" />
 <!--<project path="vendor/ezurio/backport" name="backports" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
 <project path="vendor/ezurio/firmware" name="radio_firmware" remote="Ezurio-release" revision="LRD-REL-11.171.0.24" />
 
