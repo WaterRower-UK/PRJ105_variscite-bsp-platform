@@ -73,7 +73,7 @@
 
 <project path="platform/external/wpa_supplicant_8" name="PRJ105_WiFi_android_supplicant" remote="prj105-var-github" revision="0c9292725bb8ff48cb212db299bef5d85191667f" />
 <project path="vendor/ezurio/backport" name="PRJ105_WiFi_backport" remote="prj105-var-github" revision="a7f4b936540e530d33d328e3e3e58a7dd362259d" />
-<project path="vendor/ezurio/firmware" name="https://github.com/WaterRower-UK/PRJ105_WiFi_radio_firmware" remote="prj105-var-github" revision="b14abd6620ba653caf3b9e7bf27b0a77ad2f49e3" />
+<project path="vendor/ezurio/firmware" name="PRJ105_WiFi_radio_firmware" remote="prj105-var-github" revision="b14abd6620ba653caf3b9e7bf27b0a77ad2f49e3" />
 
 
 </manifest>
